@@ -1,0 +1,17 @@
+16:46:48 **** Incremental Build of configuration Debug for project 001Tasks ****
+make -j9 all 
+arm-none-eabi-gcc "../ThirdParty/SEGGER/Rec/segger_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I"/Users/renatosoriano/FastBit_Embedded_Courses_Udemy/Course7_Workspace/Target_Workspace/RTOS_workspace/001Tasks/ThirdParty/SEGGER/Config" -I"/Users/renatosoriano/FastBit_Embedded_Courses_Udemy/Course7_Workspace/Target_Workspace/RTOS_workspace/001Tasks/ThirdParty/SEGGER/OS" -I"/Users/renatosoriano/FastBit_Embedded_Courses_Udemy/Course7_Workspace/Target_Workspace/RTOS_workspace/001Tasks/ThirdParty/SEGGER/SEGGER" -I"/Users/renatosoriano/FastBit_Embedded_Courses_Udemy/Course7_Workspace/Target_Workspace/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS" -I"/Users/renatosoriano/FastBit_Embedded_Courses_Udemy/Course7_Workspace/Target_Workspace/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include" -I"/Users/renatosoriano/FastBit_Embedded_Courses_Udemy/Course7_Workspace/Target_Workspace/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"ThirdParty/SEGGER/Rec/segger_uart.d" -MT"ThirdParty/SEGGER/Rec/segger_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/SEGGER/Rec/segger_uart.o"
+arm-none-eabi-gcc -o "001Tasks.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/renatosoriano/FastBit_Embedded_Courses_Udemy/Course7_Workspace/Target_Workspace/RTOS_workspace/001Tasks/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001Tasks.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001Tasks.elf
+ 
+arm-none-eabi-size   001Tasks.elf 
+arm-none-eabi-objdump -h -S  001Tasks.elf  > "001Tasks.list"
+   text	   data	    bss	    dec	    hex	filename
+  32916	    136	  84648	 117700	  1cbc4	001Tasks.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001Tasks.list
+ 
+
+16:46:49 Build Finished. 0 errors, 0 warnings. (took 633ms)
+
