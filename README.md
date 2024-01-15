@@ -15,7 +15,7 @@ Date: January, 2024.
 
 ## Descriptions
 
-In this course, we will demystify the complete Architecture (ARM Cortex M) related code of FreeRTOS and STM32 MCUs.
+In this course, we will demystify the complete Architecture (ARM Cortex-M) related code of FreeRTOS and STM32 MCUs.
 
 The course covers:
 1. Understanding various RTOS concepts with FreeRTOS Programming and Debugging.
@@ -34,7 +34,7 @@ The course covers:
 ## Requirements
 
 **[STM32 Nucleo-F446RE Development Board](https://www.st.com/en/evaluation-tools/nucleo-f446re.html#overview)** - Board used in this course but any board with Arm Cortex-M0/3/4 core will work, just modifying the target board and configuring with the respective datasheet. \
-**[Eclipse-based STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)** - C/C++ development platform with peripheral configuration, code generation, code compilation, and debug features for STM32 microcontrollers and microprocessors. Works on Windows/Linux/Mac and is free.
+**[Eclipse-based STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)** - C/C++ development platform with peripheral configuration, code generation, code compilation, and debug features for STM32 microcontrollers and microprocessors. Works on Windows/Linux/Mac and is free. \
 **[SEGGER SystemView](https://www.segger.com/products/development-tools/systemview/)** - Real-time recording and visualization tool for embedded systems. It reveals the true runtime behavior of an application, going far deeper than the system insights provided by debuggers. This is particularly effective when developing and working with complex embedded systems comprising multiple threads and interrupts. Works on Windows/Linux/Mac and is free.
 
 ## Notes
