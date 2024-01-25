@@ -7,6 +7,8 @@ Date: January, 2024.
 
 - The course is instructed by Engineer Kiran Nayak.
 
+- The [**Certificate**](https://github.com/renatosoriano/Udemy-Embedded-Course7_Mastering-RTOS-Hands-on-FreeRTOS-and-STM32Fx-with-Debugging/blob/main/Certificate.pdf) is available. 
+
 - The [**SystemView Logs**](https://github.com/renatosoriano/Udemy-Embedded-Course7_Mastering-RTOS-Hands-on-FreeRTOS-and-STM32Fx-with-Debugging/blob/main/Target_Workspace/records) are available. 
 
 - The [**Output Results**](https://github.com/renatosoriano/Udemy-Embedded-Course7_Mastering-RTOS-Hands-on-FreeRTOS-and-STM32Fx-with-Debugging/blob/main/Target_Workspace) are available. 

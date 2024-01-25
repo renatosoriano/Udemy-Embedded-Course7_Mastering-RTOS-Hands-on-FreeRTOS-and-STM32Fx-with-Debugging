@@ -1,0 +1,10 @@
+../Core/Src/main.c:91:5:main	56	static,ignoring_inline_asm
+../Core/Src/main.c:179:6:SystemClock_Config	88	static
+../Core/Src/main.c:236:13:MX_RTC_Init	8	static
+../Core/Src/main.c:271:13:MX_USART2_UART_Init	8	static
+../Core/Src/main.c:304:13:MX_GPIO_Init	48	static
+../Core/Src/main.c:334:6:rtc_report_callback	16	static
+../Core/Src/main.c:341:6:led_effect_callback	24	static
+../Core/Src/main.c:365:6:HAL_UART_RxCpltCallback	32	static
+../Core/Src/main.c:405:6:HAL_TIM_PeriodElapsedCallback	16	static
+../Core/Src/main.c:422:6:Error_Handler	4	static,ignoring_inline_asm

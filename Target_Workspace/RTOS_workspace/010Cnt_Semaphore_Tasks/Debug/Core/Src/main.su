@@ -1,0 +1,13 @@
+../Drivers/CMSIS/Include/core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+../Drivers/CMSIS/Include/core_cm4.h:1762:22:__NVIC_SetPendingIRQ	16	static
+../Drivers/CMSIS/Include/core_cm4.h:1816:22:__NVIC_SetPriority	16	static
+../Core/Src/main.c:85:6:printmsg	96	static
+../Core/Src/main.c:104:5:main	16	static
+../Core/Src/main.c:191:6:SystemClock_Config	88	static
+../Core/Src/main.c:248:13:MX_USART2_UART_Init	8	static
+../Core/Src/main.c:281:13:MX_GPIO_Init	48	static
+../Core/Src/main.c:311:13:vHandlerTask	16	static
+../Core/Src/main.c:330:13:vPeriodicTask	16	static
+../Core/Src/main.c:353:13:prvSetupSoftwareInterrupt	8	static
+../Core/Src/main.c:367:6:EXTI15_10_IRQHandler	16	static,ignoring_inline_asm
+../Core/Src/main.c:408:6:Error_Handler	4	static,ignoring_inline_asm
