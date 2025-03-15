@@ -13,7 +13,7 @@ Date: January, 2024.
 
 - The [**Coding Exercises**](https://github.com/renatosoriano/Udemy-Embedded-Course7_Mastering-RTOS-Hands-on-FreeRTOS-and-STM32Fx-with-Debugging/tree/main/Target_Workspace/RTOS_workspace) are available. 
 
-- The [**Output Results**](https://github.com/renatosoriano/Udemy-Embedded-Course7_Mastering-RTOS-Hands-on-FreeRTOS-and-STM32Fx-with-Debugging/edit/main/README.md#exercises-outputs) are available. 
+- The [**Output Results**](#exercises-outputs) are available. 
 
 ## Descriptions
 
